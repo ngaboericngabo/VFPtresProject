@@ -1,0 +1,212 @@
+.container{
+	width:1000px;
+	background-color:#ffffff;
+}
+
+.logo img{
+	float:left;
+	margin:15px;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+.login-form{
+	float:right;
+	margin:25px 0px 0px 0px;
+}
+
+.signup-forgotpwd{
+	margin:7px 0px 0px 7px;
+}
+.signup-forgotpwd a{
+	display:inline;
+	margin-right:145px;
+}
+
+.clear{
+	clear:both;
+}
+
+#home-exam-logo{
+	margin-left:50px;
+}
+
+.nav-pills{
+	border-bottom:1px solid #337ab7;
+}
+.nav-pills li{
+	padding:0px 10px 0px 0px;	
+}
+
+
+#home-page-description{
+float:right;
+width:450px;
+margin:55px 30px 55px 0px;
+}
+
+.logo-home-page{
+	float:left;
+}
+
+
+#home-page-description p{
+	font-size:15px;
+font-family: 'Open Sans', sans-serif;
+color:#333333;
+margin:25px 0px;
+}
+
+#footer-text{
+	margin:75px 0px 55px 0px;
+	font-size:15px;
+font-family: 'Open Sans', sans-serif;
+color:#333333;
+}
+.mid-name{
+	display:inline;
+	padding:0px 5px;
+}
+.contact-number-isd{
+	width:40px;
+	margin-right:20px;
+}
+
+.asterisk{
+	color:#e63900;
+	font-size:9px;
+}
+
+.reg-para1{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	margin:15px 0px 15px 60px;
+}
+
+
+
+.buttons-reg{
+	text-align:center;
+	margin:20px 0px;
+}
+.buttons-reg div{
+	display:inline;
+}
+
+#register-title{
+	font-weight:bolder;
+	margin:20px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+}
+
+#result-title{
+	font-weight:bolder;
+	margin:20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+}
+
+#summary-title{
+	font-weight:bolder;
+	margin:20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+}
+
+#contact-para{
+	
+	margin:20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#333333;
+}
+
+
+.contact-bold-font{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	color:#333333;
+	padding-top:25px;
+}
+
+.contact-contents{
+	margin:55px 0px;
+}
+#address-number{
+	width:250px;
+}
+
+
+#about-exam-para{
+	margin:20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+
+#about-exam-para2{
+		margin:20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+
+#faq-details-table{
+	margin:25px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#333333;
+}
+
+.exam-settings-page-para{
+	margin:25px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#333333;
+}
+
+.question{
+background-color:#e6e6e6;
+}
+
+.question1:hover,.question2:hover,.question3:hover,.question4:hover,.question5:hover,.question6:hover,.question7:hover{
+		background-color:#cccccc;
+}
+.answer1,.answer2,.answer3,.answer4,.answer5,.answer6,.answer7{
+	background-color:#e6e6e6;
+}
+
+.q-a{
+	margin:25px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#333333;
+}
+
+.q-a div{
+	padding:15px 0px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+#pages{
+	margin:30px 385px;
+}
+
+#buttons-exam-settings{
+	margin:20px 370px;
+}
+
+#buttons-exam-settings div{
+	display:inline;
+	float:left;
+	margin:20px 10px;
+
+}
+
+.admin-name{
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:#333333;
+}

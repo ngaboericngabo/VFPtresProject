@@ -1,0 +1,94 @@
+
+.content{
+      border-radius: 5px;
+   width: 1100px;
+   height: 400px;
+   border: 1px solid white;
+   margin-top: 40px;
+    
+    background-color: white;
+    
+}
+.conten_wrapp{
+   border: 0px solid blue; 
+    width: 80%;
+    height: 90%;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+     background-color: #e3dddd;
+}
+.creteaccountbox{
+     border: 0px solid blue; 
+    width: 80%;
+    height: 90%;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #e3dddd;
+    
+}
+.hoinput{
+  width: 300px;
+  height: 20px;
+     
+    color: black;
+    	box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+    padding: 3px;
+    border-radius: 4px;
+    font-family:'Times New Roman'; 
+   font-size: 10pt;
+    
+    
+}
+.passnput{
+  width: 144px;
+  height: 20px;
+     
+    color: black;
+    	box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+    padding: 3px;
+    border-radius: 4px;
+    font-family:'Times New Roman'; 
+   font-size: 10pt;
+    
+    
+}
+.hoinputdrop{
+  width: 310px;
+  height: 30px;
+     
+    color: black;
+    	box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+    padding: 3px;
+    border-radius: 4px;
+    font-family:'Times New Roman'; 
+   font-size: 10pt;
+    
+    
+}
+.bt{
+  width: 310px;
+  height: 30px;
+     
+    color: black;
+    	box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-moz-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+	-webkit-box-shadow:0 0 5px rgba(0, 0, 5, .4);
+    padding: 3px;
+    border-radius: 4px;
+    font-family:'Times New Roman'; 
+   font-size: 10pt;  
+    
+}
+
+.err{
+  color: red;
+  
+}

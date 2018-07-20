@@ -1,0 +1,24 @@
+#profile-table{
+margin:25px 0px;
+}
+
+#faq-details-table{
+	margin:35px 0px;
+}
+
+#question-table{
+	margin:55px 0px;	
+}
+
+#question-table tr td:first-child{
+	font-weight:bold;
+}
+
+#next-question{
+	margin:0px 15px 15px 0px;
+}
+
+#previous-question{
+	float:left;
+margin:0px 15px 15px 0px;
+	}

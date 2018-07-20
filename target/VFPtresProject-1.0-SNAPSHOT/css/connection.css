@@ -1,0 +1,60 @@
+
+.notconnected:hover{
+ background: white;
+ color:black;	
+}
+.connected:hover{
+ background: white;
+ color:black;	
+}
+.online1{
+ border-bottom:1px solid #ccccff;       
+   font-size:11pt; 
+
+     cursor: pointer; 
+    padding: 17px 20px;
+
+    position: relative;	
+	
+}
+.connected{
+      
+   font-size:11pt; 
+
+     cursor: pointer; 
+    padding: 17px 20px;
+
+    position: relative;
+}
+.connected:after{
+  content: "";
+  background: #2ecc71;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px;
+  top: 35px;
+  border-radius: 5px;
+   
+}
+.notconnected{
+      
+     font-size:11pt; 
+
+     cursor: pointer; 
+    padding: 17px 20px;
+
+    position: relative;
+}
+.notconnected:after{
+  content: "";
+  background:red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 5px;
+  top: 35px;
+  border-radius: 5px;
+  
+
+}

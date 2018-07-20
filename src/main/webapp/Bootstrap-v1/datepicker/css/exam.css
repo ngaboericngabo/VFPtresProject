@@ -1,0 +1,51 @@
+.exam-page-descriptions{
+margin-top:25px;
+	font-size:15px;
+font-family: 'Open Sans', sans-serif;
+color:#333333;
+}
+
+.instructions{
+	text-align:center;
+	
+}
+
+.exam-topic-select{
+	text-align:center;
+
+	margin:15px 0px;
+}
+
+.instructions-list{
+	list-style:square;
+	margin:20px 0px 15px 190px;
+}
+
+.instructions-list li{
+	line-height:1.8;
+}
+.buttons div{
+	float:left;
+	margin:15px 15px;
+	
+}
+
+.buttons{
+	margin-left:390px;
+	
+}
+
+.footer-exam{
+	float:left;
+	
+}
+.footer-list{
+	list-style:none;
+	
+}
+
+.footer-list li{
+	float:left;
+	padding:0px 7px;
+	border-right:1px dotted #000000;
+}

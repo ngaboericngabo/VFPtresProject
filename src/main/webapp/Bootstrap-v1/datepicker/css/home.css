@@ -1,0 +1,15 @@
+.logout-button{
+float:right;
+}
+
+.btn-default{
+	float:right;
+	margin-top:35px;
+}
+
+.home-page-description-1 p{
+	margin-top:25px;
+	font-size:14px;
+font-family: 'Open Sans', sans-serif;
+color:#337ab7;
+}

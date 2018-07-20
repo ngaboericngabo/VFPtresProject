@@ -1,0 +1,194 @@
+/*common CSS div structur*/
+* { padding:0; margin:0; }
+html{padding:0; margin:0; }
+body { font: normal 14px Arial, Times Roman, sans-serif; color: black; background:url(../..//Images/Headers&Footers/bgColor.jpg); margin: 0; padding: 0;  }
+ 
+textarea { border: 1px solid #D5D5D5; color:#7B7B7B; margin:0; padding: 0; font: normal 12px  Arial, Helvetica, sans-serif; }
+ 
+a{ font: normal 12px  Arial, Helvetica, sans-serif; color:#0096FF; text-decoration: none; outline: none;}
+a:hover { font: normal 12px  Arial, Helvetica, sans-serif; color:#0096FF; text-decoration: underline; outline: none;}
+.relative{ position:relative; }
+.absolute{ position:absolute; }
+.clear{ clear:both;}
+
+h1{font: normal 18px  Arial, Helvetica, sans-serif; color:#006fc1; background:url(../images/doted_line.html) repeat-x bottom; padding-bottom:4px; padding-top:9px;}
+/*------------------------------------- comuun css --------------------------------*/
+
+#wrapper{ width:970px; margin:0px auto; padding:0px; background:url(../..//Images/Headers&Footers/body_bg.png) repeat-y center top;}
+#page{ width:950px; margin:0px; padding:0px 10px 0px 10px;}
+#top_part{ width:950px; float:left; padding:0px;}
+.header{ width:940px;  padding:0px; padding:2px 10px 0px 5px; background: url(../..//Images/Headers&Footers/top_img.jpg) no-repeat scroll 0 0 transparent; height: 157px;}
+.logo{ width:175px; float:left;padding:7px 0px 5px 0px;}
+.header_right_part{ width:350px; float:right;padding:0px; margin-top: 30px;}
+.date{width:300px; float:right; color:#fff; padding:10px 0px 10px 0px; text-align:right}
+
+/*---------------top link start here -------------------*/
+.top_link{width:300px; float:right; color:#323333; padding:10px 0px 10px 0px; text-align:right;}
+.top_link ul{ margin:0px; padding:0px;}
+.top_link li{ list-style:none; display:inline; padding:0px; background:url(../images/sapoter_top_link.gif) no-repeat right;
+padding:0px 8px 0px 8px;}
+.top_link a{ text-decoration:none; color:#FFFFFF;}
+.top_link a:hover{ text-decoration:none; color:#323333;}
+
+.top_text img {padding-left: 5px; margin-top:45px;}
+.lang{width:300px; float:right; color:#323333; padding:0px 0px 10px 0px; text-align:right;}
+.lang ul{ margin:0px; padding:0px;}
+.lang li{ list-style:none; display:inline; padding:0px; background:url(../images/sapoter_top_link1.html) no-repeat right;
+padding:0px 0px 0px 4px;}
+.lang a{ text-decoration:none; color:#FFFFFF; font-weight: bold;}
+.lang a:hover{ text-decoration:none; color:#323333; font-weight: bold;}
+
+/*---------------search box start here -------------------*/
+.search_box{width:230px; float:right; padding-top:2px;}
+.input_box{width:152px; float:left;}
+.input_box input{width:150px; height:20px; line-height:20px; border:1px solid #cccccc; background-color:#FFF;float:right; color:#333;}
+.search_btn{width:72px; float:left; padding-left:5px;}
+
+
+/*---------------navigation start here -------------------*/
+.navi{ width:945px; line-height:40px; float:right;margin:2px; background:url(../images/navi_bg.gif) repeat-x;}
+.navi ul{ margin:0px; padding:0px;}
+.navi li{list-style:none; float:left; line-height:40px;  padding:0px 1px 1px 1px; background:url(../images/sapoter.gif) no-repeat right; position:relative;}
+.navi li a { text-decoration:none; line-height:40px; padding:0px 20px 0px 19px; color:#fff;}
+.navi li a:hover { float:left; text-decoration:none; background-color:#80d36d; line-height:40px; padding:0px 20px 0px 19px; }
+.navi li a.active {float:left; text-decoration:none; background-color:#80d36d; line-height:40px; padding:0px 20px 0px 22px; }
+
+.navi li ul{ float:left; position:absolute; z-index:1002; top:40px; left:0;  padding:0 0 5px 0; display:none; min-width:150px;}
+.navi li ul li{ float:left; line-height:25px; background:url(../images/navi_bg.gif) repeat-x; padding:0px;}
+.navi li ul li a{ color:#fff; display:block; line-height:25px;background:url(../images/navi_bg.gif) repeat-x;width:150px;}
+.navi li ul li a:hover{ line-height:25px; background:url(../images/navi_bg1.gif) repeat-x;}
+
+.navi li ul li ul{ top:0px;left:189px;}
+.navi li ul li ul li{ display:none; }
+
+.navi ul li:hover ul{ display:block; }
+.navi ul li ul li:hover ul li{  display:block;}
+/*---------------container box start here -------------------*/
+#container_part{ width:930px; text-align:justify; padding:2px;}
+#middle_part{width:488px; float:left; padding:0px; padding-left:2px;}
+#inner_middle_part{width:700px; float:right; padding:0px; padding-left:2px;}
+
+
+.banner_part{ width:930px; float:left; padding:0px;}
+.banner_left_box{ width:195px; float:right; padding:10px;margin-top:1px; border:1px solid #cccccc; background-color:#f7f7f7; color:#434343; text-align:justify;}
+.banner_left_img{ width:165px; float:left; padding-right:30px; text-align:right;}
+.banner_left_text { width:195px; float:left;}
+.banner_left_text h2{ font-size:12px; color:#006fc1; padding-bottom:12px;}
+.left_part{ width:930px; float:left; padding:2px;}
+.banner{width:486px; float:left; padding:0px; /* border:1px solid #cccccc;*/}
+.inner_banner{width:702px; float:right; padding:0px; /* border:1px solid #cccccc;*/}
+
+.main_middle_part{ width:930px; float:left; padding:0px; padding-top:10px;text-align:justify;}
+/*---------------left part start here -------------------*/
+
+.left_part{ width:217px; float:left; padding:0px;}
+.useful_document{ width:217px; float:left; padding:10px 0px 0px 0px;}
+.left_menu{ width:215px; float:left; padding:0px; border:1px solid #cac9c9; background-color:#eeeeee;}
+.left_menu ul{ margin:0px; padding:0px;}
+.left_menu li{ list-style:none; display:block;  font-weight:bold; color:#706f6f; line-height:30px; background:url(../images/line.gif) no-repeat bottom;padding:0px 0px 2px 0px;}
+.left_menu a{ text-decoration:none; font-weight:bold; display:block; color:#706f6f; line-height:30px; background:url(../images/arrow1.html) no-repeat 12px; padding-left:25px;}
+.left_menu a:hover{ text-decoration:none; font-weight:bold; color:#ffffff; display:block; line-height:30px;background:url(../images/arrow.gif) no-repeat 12px #006fc1;padding-left:25px;}
+.left_menu a.active{ text-decoration:none; font-weight:bold; color:#ffffff; display:block; line-height:30px;background:url(../images/arrow.gif) no-repeat 12px #006fc1;padding-left:25px;}
+
+.document_box{ width:215px; float:left; padding:0px; border:1px solid #cac9c9; background-color:#f7f7f7; margin-top:0px;}
+.document_tab{width:204px; float:left; background-color:#eeeeee; line-height:33px;border-bottom:1px solid #cac9c9; font-size:18px; color:#006fc1; padding-left:11px;}
+.document_inner{width:195px; float:left; padding:10px 0px 0px 5px;}
+.document_text{width:195px; float:left; padding:8px 0px 8px 0px;}
+.document_text img{ margin-right:9px;}
+
+
+/*---------------right part start here -------------------*/
+
+.right_part{ width:217px; float:right; padding:0px;}
+.news_event{ width:100%; float:right; padding:10px 0px 0px 0px;}
+.news_box{ width:215px; float:left; padding:0px; border:1px solid #cac9c9; background-color:#eeeeee;}
+.news_tab{width:196px; float:left; background:url(../images/news_tab_bg.gif) repeat-x; line-height:33px;border:1px solid #cac9c9; font-size:18px; color:#006fc1; margin-left:4px; margin-top:4px; padding-left:9px;}
+.news{ width:215px; float:left;}
+.news ul, .news_event ul{ margin:0px; padding:0px; padding-bottom:10px;} /* padding-bottom:30px;*/
+.news li, .news_event li{ list-style:none;color:#299529; display:block; background:url(../images/doted_line.html) repeat-x bottom; padding-bottom:2px;}
+.news li span{ color:#006fc1; font-weight:bold; padding:0px; margin:0px;}
+.news a { text-decoration:none; display:block; color:#299529; padding:10px 10px 10px 14px; /*padding:12px 10px 12px 14px; */ }
+.news_event a{ text-decoration:red; display:block; color:#0096FF; padding:6px 10px 6px 0px; /*padding:12px 10px 12px 14px; */ }
+.news a:hover { text-decoration:none; color:#0096FF; display:block; background:url(../images/news_grad_bg_hover.gif) repeat-x top;
+/* padding:12px 10px 12px 14px; */}
+.news_event a:hover{ text-decoration:none; color:#0096FF; display:block; }
+.news a.active { text-decoration:none; color:#0096FF; display:block;background:url(../images/news_grad_bg_hover.gif) repeat-x top;padding:12px 10px 12px 14px; }
+
+.mailing_box{ width:215px; float:left; padding:0px; border:1px solid #cac9c9; background-color:#f7f7f7; margin-top:5px;}
+.mailing_tab{width:204px; float:left; background-color:#eeeeee; line-height:33px;border-bottom:1px solid #cac9c9; font-size:18px; color:#006fc1; padding-left:11px;}
+.mailing_inner{width:187px; /*min-height:187px; */ float:left; padding:0px 14px 10px 14px;}
+.mailing_text{width:187px; float:left; padding:8px 0px 8px 0px; text-align:center;}
+.mailing_text span{ color:#006fc1; font-weight:bold; padding:0px; margin:0px;}
+
+.right_newsletter .tx-powermail-pi1{ width:215px; float:left; padding:0px; border:1px solid #cac9c9; background-color:#f7f7f7; margin-top:5px;}
+.right_newsletter .tx-powermail-pi1 legend{display:block; width:204px; float:left; background-color:#eeeeee; line-height:33px;border-bottom:1px solid #cac9c9; font-size:18px; color:#006fc1; padding-left:11px;}
+.right_newsletter .tx_powermail_pi1_fieldwrap_html{width:187px; /*min-height:187px; */ float:left; padding:0px 5px 10px;}
+.right_newsletter .powermail_text{height:20px;}
+
+/*---------------middle part start here -------------------*/
+.middle_part{width:476px; /* min-height:100%; */ min-height:500px; float:left;  padding:10px 6px 0px 6px; word-wrap: break-word; }
+.containt{width:476px; float:left;min-height:315px; clear:#434343; line-height:18px; padding-top:0px;  }
+
+/*---------------tab part start here -------------------*/
+.tab_box{width:454px; float:left; min-height:150px; background-color:#f7f7f7;border:1px solid #cac9c9;padding:20px 10px 20px 10px; line-height:18px; text-align:justify;}
+
+.tab{width:400px; float:left; position:relative; left:10px; top:-1px; z-index:99;}
+/*
+.tab ul{ margin:0px; padding:0px;}
+.tab li{ list-style:none; display:inline; line-height:37px; padding:0px 1px 0px 1px; line-height:33px;}
+.tab a{ text-decoration:none; color:#006fc1; background:url(../images/tab_bg_normal.gif) repeat-x; border:1px solid #cac9c9; padding:8px 10px 10px 10px; font-weight:bold;}
+.tab a:hover{ text-decoration:none; color:#717171; background:url(../images/tab_bg_hover.gif) repeat-x; border:1px solid #cac9c9; border-bottom:1px solid #f7f7f7; line-height:33px;padding:8px 10px 10px 10px; font-weight:bold;}
+.tab a.active{ text-decoration:none; color:#717171; background:url(../images/tab_bg_hover.gif) repeat-x; border:1px solid #cac9c9; border-bottom:1px solid #f7f7f7; line-height:33px;padding:8px 10px 10px 10px; font-weight:bold;}
+*/
+/*---------------bottom part start here -------------------*/
+#bottom_part{width:950px; float:left; }
+.footer{width:950px; float:left; margin-bottom:10px; background-color:#0081E0; border-bottom:1px solid #1f1f1f; text-align:center; }
+.footer ul{ margin:0px; padding:0px;}
+.footer li{ list-style:none; display:inline; line-height:37px; background:url(../images/sapoter_footer.gif) no-repeat right;
+padding:0px 15px 0px 15px;}
+.footer a{ text-decoration:none; color:#fff;}
+.footer a:hover{ text-decoration:none; color:#222;}
+
+.copyright{width:950px; float:left; background:url(../images/footer_bg.gif) repeat-x; color:#2e2d2d; text-align:center; line-height:30px; padding-bottom:10px; }
+
+#c10 img{height:275px;width:706px;}
+.banner_left_box h2 {
+    color: #006FC1;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.banner .csc-default img{/*width:486px; height:256px;*/margin-bottom:0px;}
+
+/* --------------- Search --------------------- */
+#tx_indexedsearch table td {padding:3px;}
+
+
+input.tx-indexedsearch-searchbox-sword { border: 1px solid #CCCCCC;
+    color: #333333;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;	
+}
+
+ 
+.tx-indexedsearch-descr {padding:5px 0; font:12px Arial,Helvetica,sans-serif;}
+.tx-powermail-pi1_fieldset legend{ display:none;}
+.tx-powermail-pi1_fieldset {border:none; }
+.mail-input { border: 1px solid #CCCCCC; color: #333333;padding:2px; width: 160px;font:12px Arial,Helvetica,sans-serif;}
+.csc-header-n1 .csc-firstHeader {margin-top:0px; background-color:#7DD269; color:#FFF;font:18px Arial,Helvetica,sans-serif;padding:2px;}
+.tx_powermail_pi1_fieldwrap_html_label {width:187px; float:left; padding:8px 0px 8px 0px; text-align:center;}
+.tx_powermail_pi1_fieldwrap_html {font:12px Arial,Helvetica,sans-serif;}
+.tx_powermail_pi1_fieldwrap_html label {display:block; padding-top:5px;}
+ 
+
+.tx-powermail-pi1_thx {padding-top:10px;}
+.powermail_mandatory_js {color:#F00;}/* CSS Document */
+ 
+ 
+.right_newsletter .email_text{
+	height:20px;
+	width:200px;
+}
+ 
+/* CSS Document */
