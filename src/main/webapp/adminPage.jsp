@@ -1,4 +1,5 @@
-<%@page import="cardio.domain.Users"%>
+
+<%@page import="tres.domain.Users"%>
 <!DOCTYPE html>
 <html>
 <title>Tress</title>
@@ -27,15 +28,10 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
             try {
                 Users person = new Users();
                 person = (Users) session.getAttribute("userSession");
-                person.getUserName();
                 if (null == person.getUserName()) {
                     response.sendRedirect("home");
-
-                }
-                
-               
-                      
-            %>    
+ }
+   %>    
 <!-- Navbar -->
 <div class="w3-top">
  <div class="w3-bar w3-theme-d3 w3-left-align w3-large">
@@ -70,7 +66,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
          <hr>
          <p><i class="glyphicon glyphicon-asterisk fa-fw w3-margin-right w3-text-theme"></i><%=person.getFname()%> <%=person.getLname()%></p>
          <p><i class="glyphicon glyphicon-globe fa-fw w3-margin-right w3-text-theme"></i> <%=person.getAddress()%>,<%= person.getSector().getDistric().getProvince().getProvenceName()%></p>
-         <p><i class="glyphicon glyphicon-tasks fa-fw w3-margin-right w3-text-theme"></i><%=person.getSpeciality().getSpecialityName()%></p>
+         <p><i class="glyphicon glyphicon-tasks fa-fw w3-margin-right w3-text-theme"></i><%=person.getDepartment().getDepartmentName()%></p>
         </div>
       </div>
       <br>
